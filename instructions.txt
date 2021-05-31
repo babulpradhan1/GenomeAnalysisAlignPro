@@ -1,5 +1,5 @@
 # GenomeAnalysisAlignPro -v 0.0.1
-This 'instruction' file comes with 'GenomeAnalysisAlignPro' contains instruction to enable you run the program smoothly and error free. Read carefully before running the program.
+This 'instructions.txt' file comes with 'GenomeAnalysisAlignPro' contains instruction to enable you run the program smoothly and error free. Read carefully before running the program.
 
 The program automates the process of genome alignment through processing the alignment using Picard. That is useful in Genome Analysis, Like SNP detections. These steps are also need to be performed if you are going to use GATK for genome analysis. This program,
 	a. Index the reference genome using bwa.
