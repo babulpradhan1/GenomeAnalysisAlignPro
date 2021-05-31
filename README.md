@@ -55,9 +55,16 @@ Ex: -*put_the_values_here*-. To avoid any confusion already some values are ment
 	a. Open a terminal on your linux system. (ignore if you are already on a terminal)
 	
 	b. cd into the program folder, containing the program GenomeAnalysisAlignPro and other files that comes along the program in the package (The folder that after you download and unzip this package).
-		Ex: $ cd /home/user/Tools/GenomeAlalysisPro
+	Ex: $ cd /home/user/Tools/GenomeAlalysisPro
+	
 	c. Run 'perl GenomeAnalysisAlignPro.pl'
-		Ex: $ perl GenomeanalysisAlignPro.pl
+	Ex: $ perl GenomeanalysisAlignPro.pl
+	
 	d. The program will then automatically read and display the values you provided in the 'conf.ipt' file. Check if the values displayed are correct. If everything looks good, sit back and relax, the program will take care of the remaining. If not press 'Ctrl' and 'C' simultaneously to stop the program and rerun the program after fixing the error.
 	
 3. **_Results_**: After the program runs and process the result, it will give you a '.SFMIRDCS.sam' file after processing. This is the final '.sam' file after all the processing. It will also give a 'METRICS_FILE' (.dups.txt) containg the duplicates that is marked and removed during the processing by the program. (The program will display the location of the files after processing).
+
+4. **Citations**:
+	a. picard: http://broadinstitute.github.io/picard
+	b. bwa: Li H. and Durbin R. (2009) Fast and accurate short read alignment with Burrows-Wheeler Transform. Bioinformatics, 25:1754-60. [PMID: 19451168] http://bio-bwa.sourceforge.net/
+
