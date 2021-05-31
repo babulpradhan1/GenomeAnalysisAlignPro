@@ -1,4 +1,4 @@
-#input structure file -v 0.0.1
+#input structure file -v 0.0.1 (avalable along GenomeAnalysisAlignPro)
 -MD -*/home/user/GenomeAnalysis/Test*-
 -SID -*XLID_21C*-
 -SM -*Illumina*-
