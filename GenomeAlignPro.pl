@@ -1,5 +1,5 @@
 #!usr/bin/perl
-
+##GenomeAnalysisAlignPro
 #InstructionsStart
 print "----------------------------------------------------------------------------------------------------------------------------------------------------------------\n";
 print "Before proceeding further please make sure to follow the below instructions for proper working of the program.\n\t\t\t\t\t\t\t\t\t\t|\n\t\t\t\t\t\t\t\t\t\tv\n";
@@ -204,7 +204,7 @@ system("rm $samdir/$markSAM" );
 print "Removing $markSAM, Done.\n\n";
 
 
-
+print "METRICS_FILE \'$dupsFile\' generated at the Path \'$dupsdir/$dupsFile\'\n\n";
 print "\nThe processed SAM file \'$cleanSAM\' present in the Path \'$samdir/$cleanSAM\'\n\n";
 
 print "----------------------------------\nProcessing Sucessfully Completed\n----------------------------------\n\n";
