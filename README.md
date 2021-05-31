@@ -1,5 +1,4 @@
 # GenomeAnalysisAlignPro -v 0.0.1
-# GenomeAnalysisAlignPro -v 0.0.1
 This 'readme' file comes with 'GenomeAnalysisAlignPro' contains instruction to enable you run the program smoothly and error free. Read carefully before running the program.
 
 The program automates the process of genome alignment through processing the alignment using Picard. That is useful in Genome Analysis, Like SNP detections. These steps are also need to be performed if you are going to use GATK for genome analysis. This program,
@@ -37,7 +36,9 @@ The program automates the process of genome alignment through processing the ali
 			-Picard: -*/home/user/Tools/picard-2.25.5*-
 		followed by some instructions.
 		
-		The above part includes the parts which needs to be edited/modified by the user. The parameters are the one following a "-" (dash) symbol. The parameters are then followed by the respective values inside a 'value holder' that looks some thing like "-**-" (without the double quotes), The user needs to put the values inside the 'value holder' i.e. in between the "-**-" (without the double quotes). Ex: -*put_the_values_here*-. To avoid any confusion already some values are mentioned inside the respective 'value holders'. You just need to replace these values with your values.
+The above part includes the parts which needs to be edited/modified by the user. The parameters are the one following a "-" (dash) symbol. The parameters are then followed by the respective values inside a 'value holder' that looks something like "-**-" (without the double quotes).
+The user needs to put the values inside the 'value holder' i.e. in between the "-**-" (without the double quotes).
+Ex: -*put_the_values_here*-. To avoid any confusion already some values are mentioned inside the respective 'value holders'. You just need to replace these values with your values.
 	
 	b. For -MD parameter, it needs the 'Path' of the 'Main Working Directory'. You just have to replace the Path inside the -MD value holder with the 'Path' of the folder you have created in the **step 1a**.
 	
